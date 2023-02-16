@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^5.2.1",
     "next": "latest",
     "react": "18.2.0",
     "react-countup": "^6.4.1",

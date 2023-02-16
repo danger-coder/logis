@@ -8,6 +8,9 @@ import Services from './components/Services'
 import CalltoAction from './components/CalltoAction'
 import Description from './components/Description'
 import Pricing from './components/Pricing'
+import FrequntlyAskQuestion from './components/FrequntlyAskQuestion'
+import Footer from './components/Footer'
+
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +27,8 @@ const Home: NextPage = () => {
       <CalltoAction />
       <Description />
       <Pricing />
+      <FrequntlyAskQuestion />
+      <Footer />
     </div>
   )
 }

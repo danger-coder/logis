@@ -7,7 +7,10 @@ const Pricing = (props: Props) => {
     return (
         <div className='bg-white pt-[80px] pb-[80px]'>
             <div className='container mx-auto'>
-                <h1 className='text-[32px] font-bold text-center text-[#0d42ff]'>Pricing</h1>
+                <div className='flex items-center justify-center mx-auto flex-col'>
+                    <h1 className=' text-[32px] font-bold text-[#0E1D34]'>Pricing</h1>
+                    <div className='h-[4px] w-[40px] mt-[8px] bg-[#0E1D34]'></div>
+                </div>
                 <div className='grid grid-cols-3 mt-[40px] gap-[30px] px-[10%]'>
                     <div className='border shadow-lg pt-[50px] pl-[35px] rounded-md'>
                         <p className='text-[#0e1d34] text-[20px] leading-[24px] font-semibold'>Free Plan</p>
